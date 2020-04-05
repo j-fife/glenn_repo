@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Raleway:wght@200&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.container {
+  width : 100%; 
+}
+
+.homepage-left, .homepage-right { 
+  color : white; 
+}
+
+.homepage-left {
+  height : 80vh;
+  background-color: #031221;
+}
+
+.homepage-right{
+  height: 80vh;
+  text-align: center;
+  background-color: #E83F3F;
+}
+
+.about-block{
+  color: white; 
+  padding-top : 30px; 
+  height: 20vh;
+  padding-left: 30px;
+  background-color: #E83F3F;
+}
+
+.contact-block{
+  color: white;
+  height : 20vh;
+  padding-top : 30px; 
+  padding-left: 30px;
+  background-color: #031221;
+}
+
+
+.main-font {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.right-container, .left-container {
+  padding-top: 70px;
+}
+
+.right-container {
+  
+}
+
+.left-container {
+  padding-left: 30px;
+}
+
+.left-container-text {
+  padding-top : 30px;
+}
+
+.weflop-logo {
+  font-family: 'Courier Prime', monospace;
+  font-size: 50pt;
+}
+
+.courier-font {
+  font-family: 'Courier Prime', monospace;
+}
+
+.room-input {
+  padding-bottom: 30px;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
